@@ -8,12 +8,12 @@ $arComponentDescription = array(
 	"ICON" => "/images/catalog.gif",
 	"COMPLEX" => "Y",
 	"SORT" => 10,
-	"PATH" => array(
-		"ID" => "content",
-		"CHILD" => array(
-			"ID" => "catalog",
-			"NAME" => Loc::getMessage("IBS_NOTEBOOK_NAME"),
-			"SORT" => 30,
-		)
-	)
+    "PATH" => array(
+        "ID" => "content",
+        "CHILD" => array(
+            "ID" => "ibs",
+            "NAME" => Loc::getMessage("IBS_BRANCH_NAME"),
+            "SORT" => 30,
+        )
+    )
 );
